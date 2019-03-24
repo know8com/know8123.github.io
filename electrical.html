@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Know8</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+</head>
+<style>
+  html{
+  scroll-behavior: smooth;
+}
+</style>
+<style>
+body {
+  animation: slide 400s linear infinite alternate;
+  background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/166620.jpg");
+  background-repeat: repeat;
+}
+@keyframes slide {
+  to {
+    background-position: 0 100%;
+  }
+}
+
+   .container{
+    background-color: #ff0000;
+background-color: #000077;
+background-color: #f57f17;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.57'%3E%3Cpath fill='%23f3712f' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23f1613f' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23ef504c' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23ec3c58' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23e91e63' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23c50e68' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23a0006d' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%237a0070' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23500074' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23000077' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+min-height: 500px;
+  width: 100%;
+  border-radius: 0px 0px 300px 0px;
+</style>
+
+<style>
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+
+.sandbox-correct-pronounciation {
+  padding: 5em 0 0em 0;
+}
+
+.heading-correct-pronounciation {
+
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+
+h1{
+  color: #fff;
+  font-family: 'Cardo', serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+}
+
+em {
+  font-family: 'EB Garamond', serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  font-style:normal;
+  padding-top: 0.1em;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+  
+  &::before, &::after {
+  content: "§";
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+    opacity: 0.2;
+  margin: 0 0.6em;
+  font-size: 0.5em;
+}
+
+}
+
+
+</style>
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: orange;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  color: white;
+  background:#f9a825;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f9a825, #880e4f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f9a825, #880e4f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: margin-left:10px;
+}
+</style>
+<style>
+  .btn {
+  text-align: center;
+  background-color: pink;
+  color: white;
+  border-radius: 2px;
+}
+
+</style>
+<style>
+  .btn {
+  text-align: center;
+  background-color: orange;
+  color: black;
+}
+
+.btn:hover {
+  background-color: transparent;
+  text-align: center;
+  color: orange;
+  border: 1px solid orange;
+}
+</style>
+<style>
+  p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+<style>
+  <style>
+  #myDIV{
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+      transition: 0.2s;
+      padding: 5px 10px; 
+      border-color: #ad1457;
+      position: center;
+
+  }
+  .card-content{
+    background-color: #ad1457;
+    color: white;
+    font-family: Comic sans MS;
+  }
+  
+</style>
+</style>
+<style>
+  .card-custom {
+  overflow: hidden;
+  height: 450px;
+  width: 450px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: relative;
+  font-size: 14px;
+    color: #666666;
+    font-family: "Open Sans";
+}
+
+.card-custom-img {
+  height: 200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+  position: absolute;
+  content: '';
+  top: 161px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 40px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 545px;
+  border-left-width: calc(575px - 5vw);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 100px;
+  left: 1.25rem;
+  width: 100px;
+  height: 100px;
+}
+.card-text{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+</style>
+<style>
+  .myButt {
+  outline: none;
+  border: none;
+  padding: 20px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #fff;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.one {
+  border-color: #fff;
+  overflow: hidden;
+  color: #fff;
+}
+.one .insider {
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: -135px;
+  transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+}
+.one:hover {
+  background:  linear-gradient(to bottom, #00897b 0%,#004d40 100%);
+  border-color: #fff;
+  color: #fff;
+}
+.one:hover .insider {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  left: 135px;
+}
+</style>
+<body>
+  <div class="container">
+    <nav class="transparent" role="navigation">
+    <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KNOW8</a></div></nav>
+  </br></br></br>
+      <div class="sandbox sandbox-correct-pronounciation">
+  <h1 class="heading heading-correct-pronounciation">
+    <em>ELECTRICAL</em>
+  </h1></div>
+</br>
+      <div class="row center">
+        <h5 class="header col s12 dark">EMBEDDED SYSTEMS</h5>
+      </br></br>
+        <button class="btn-large pink"><a href="electrical.pdf">Download Brochure</a></button>
+      </div>
+    </div>
+    <div class="fixed-action-btn">
+  <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn-floating orange pulse"><i class="material-icons">keyboard_arrow_up</i></button></div>
+    <div id="myDIV">
+      <div class="row center">
+    <div class="center">
+      <div class="card" id="About">
+        <div class="card-image">
+          <img src="http://www.sninfosystems.com/images/hardware.jpg" alt="responsive">
+          <span class="card-title" style="color:white;"><b>Embedded Systems</b></span>
+        </div>
+        <div class="card-content">
+          <p d-inline align="justify"><b>An embedded system is one kind of a computer system mainly designed to perform several tasks like to access, process, store and also control the data in various electronics-based systems. Embedded systems are a combination of hardware and software where software is embedded into the hardware. One of its most important characteristics of these systems is, it gives the o/p within the time limits. Embedded systems support to make the work more perfect and convenient. So, we frequently use embedded systems in simple and complex devices too. The applications of embedded systems mainly involve in our real life for several devices like microwave, calculators, TV remote control, home security and neighborhood traffic control systems, etc.</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<button class="collapsible">Micro-Controllers</button>
+<div class="content">
+  <div class="row">
+    <img src="hero.svg" height="300px" width="400px" alt="responsive" align="left">
+    <div class="col s10 m8">
+  <p align="center-right">Microcontrollers are widely used in embedded systems and make devices work according to our needs and requirements. We have controllers like 8051, Atmega16, Atmega328 and PIC16F877.Arduino Uno is a very valuable addition in the electronics that consists of USB interface, 14 digital I/O pins, 6 analog pins, and Atmega328 microcontroller. It also supports serial communication using Tx and Rx pins.There are many versions of Arduino boards introduced in the market like Arduino Uno, Arduino Due, Arduino Leonardo, Arduino Mega, however, most common versions are Arduino Uno and Arduino Mega. If you are planning to create a project relating to digital electronics, embedded system, robotics, or IoT, then using Arduino Uno would be the best, easy and most economical option.</br></br> 
+    <b>To learn more about Micro-controllers, click the button and register yourself for the upcoming workshops.</b></p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://know8.typeform.com/to/f5mLKG" class="btn btn-lg" align="center">
+     REGISTER YOURSELF FOR THE EVENT</a></br></div>
+</div></div>
+<button class="collapsible">Real-Time Applications</button>
+<div class="content">
+  <div class="row">
+    <img src="embedded.png" height="300px" width="400px" alt="responsive" align="left">
+    <div class="col s10 m8">
+  <p align="center-right">In modern era, we are all aware of Automation systems. whether you are at home or your office, if things are not automated then it can make your work quite difficult. We don't need to go far, let's take the example of remote control. IT has made our life so easy now we can turn things on or off by simply clicking buttons on our remote control. Smart Home automation is a widely diverse application of embedded systems. From curtains to doors, lights or fans, everything is controlled by a simple remote for the ease of use. Now coming towards security systems, these are all the fruits of embedded systems. These days we have sensors installed in our homes and even if you are not at home you can still get complete visuals camera feeds on your mobile from anywhere in the world. That became possible just because of Embedded systems.</br></br>
+  <b>Here are some latest real-time projects for you to work with embedded systems</b></br>
+    1. Automatic Irrigation System with Sensing Soil Moisture Content</br> 
+    2. Wireless Power Transfer in 3D Space</br>
+    3. Remotely Controlled Android Based Electronic Notice Board</br>
+    4. Ultra Fast Acting Electronic Circuit Breaker</br>
+    5. Solar Powered LED Street Light with Intensity Control</br></br>
+    <b>To learn more about Micro-controllers, click the button and register yourself for the upcoming workshops.</b></p>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://know8.typeform.com/to/f5mLKG" class="btn btn-lg" align="center">
+     REGISTER YOURSELF FOR THE EVENT</a></div>
+</div></div>
+
+<br><br>
+  <footer class="page-footer grey darken-4">
+    <div class="container1 transparent">
+      <div class="row margin-left">
+        <div class="col l6 s12">
+          <h5 class="white-text">THANK YOU</br>FOR YOUR SUPPORT!!</h5>
+          <p class="grey-text text-lighten-4" align="justify">We will be greatly appreciated if you give us your feedbacks by going on our facebook page or you may also e-mail us by clicking on the given links.</br>If you have any enquiry please fill the form given below.</p>
+          <a href="https://zfrmz.in/6NFUiO3j5Z9oumpGxZFo" class="btn btn-lg">
+     ENQUIRY?</a>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">FACEBOOK</h6>
+          <ul>
+            <li><a href="#!">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="facebook.png"></a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h6 class="white-text">G-MAIL</h6>
+          <ul>
+            <li><a href="#!">&nbsp;&nbsp;&nbsp;&nbsp;<img src="google.png"></a></li>
+          </ul></div>
+      </div>
+    </div>
+    <div class="footer-copyright transparent">
+      <div class="container1 margin-left">
+      &nbsp;&nbsp;BECAUSE <a class="orange-text">( KNOWLEDGE )</a>&nbsp;<i class="material-icons orange-text">all_inclusive</i>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
